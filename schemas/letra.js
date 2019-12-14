@@ -34,6 +34,18 @@ export default {
             name: "autor",
             type: "reference",
             to: [{type: 'autor'}]
+        },
+        {
+            title: "Color del Logo",
+            name: "color_logo",
+            type: "string",
+            options: {
+                list: [
+                    {title: "White", value: "white"},
+                    {title: "Soft Blue", value: "soft-blue"},
+                    {title: "Blue", value: "blue"},
+                ]
+            }
         }
     ]
 }
