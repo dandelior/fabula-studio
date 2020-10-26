@@ -20,11 +20,6 @@ export default {
             of: [{type: "block"}]
         },
         {
-            title: "Imagen de Grilla",
-            name: "imagen_grilla",
-            type: "image"
-        },
-        {
             title: "Imagen Destacada",
             name: "imagen_destacada",
             type: "image"
