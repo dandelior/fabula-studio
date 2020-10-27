@@ -25,12 +25,6 @@ export default {
             type: "image"
         },
         {
-            title: "Autor",
-            name: "autor",
-            type: "reference",
-            to: [{type: 'autor'}]
-        },
-        {
             title: "Color del Logo",
             name: "color_logo",
             type: "string",
